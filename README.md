@@ -11,6 +11,7 @@ Django_readymade is a simple starter template for django project. These are the 
 + Bootstrap == 4.5
 + rename.py file (Note:  Rename your project with python manage.py rename <yourprojectname> <newprojectname> )
 + Hero as apps in django
++ core as custom django command
   
 # Settings files
 + base.py - 
