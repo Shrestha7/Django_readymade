@@ -39,7 +39,7 @@ settings only. It is sometimes called prod.py.
 1. add .env file 
 2. copy from .demo_env_template and paste in .env file
 3. Generate Secret_key in python shell:
-``` $ python manage.py shell -c 'from django.core.management import utils;print(utils.get_random_secret_key())' ```
+> ``` $ python manage.py shell -c 'from django.core.management import utils;print(utils.get_random_secret_key())' ```
 4. copy key and add to SECRET KEY in .env file
 
 # How to rename project
