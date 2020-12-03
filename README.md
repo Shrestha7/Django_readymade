@@ -34,3 +34,10 @@ definitions, and log settings.
 This is the settings file used by your live production server(s). That is, the
 server(s) that host the real live website. This file contains production-level
 settings only. It is sometimes called prod.py.
+
+# Create .env file and generate secret key
+1. add .env file 
+2. copy from .demo_env_template
+3. Generate Secret_key in python shell:
+$ python manage.py shell -c 'from django.core.management import utils;print(utils.get_random_secret_key())'
+4. copy key and add to SECRET KEY in .env file
